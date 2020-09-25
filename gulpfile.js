@@ -115,12 +115,11 @@ gulp.task("images:svg", function(){
         .pipe(gulp.dest("build/img/svg"));
 });
 
-gulp.task("images", gulp.series("clean:images", "images:bitmap", "images:svg"));
-
 gulp.task("fonts", function(){
     return gulp.src("src/fonts/**")
-        .pipe(gulp.dest("build/fonts"));
+    .pipe(gulp.dest("build/fonts"));
 });
 
+gulp.task("images", gulp.series("clean:images", "images:bitmap", "images:svg"));
 gulp.task("watch", gulp.series("clean:build", "html", "scss", "js", "images", "fonts", "server"));
 gulp.task("build", gulp.series("clean:build", "html", "scss", "css:min", "js", "js:min", "images", "fonts"));
