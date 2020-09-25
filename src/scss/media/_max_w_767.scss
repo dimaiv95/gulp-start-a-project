@@ -1,0 +1,15 @@
+/*
+** max-width 767px
+*/
+@include media("max-width", 767){
+    
+}
+
+/*
+** bootstrap max-width 767.98px
+*/
+@include media-breakpoint-down(sm){
+    h1{
+        font-size: 46px;
+    }
+}

@@ -1,0 +1,57 @@
+/*
+** fonts
+*/
+@include font-face("Roboto", "./fonts/Roboto/Roboto-Thin/Roboto-Thin", ("ttf", "woff", "eot")){
+	font-style: normal;
+ 	font-weight: 100;
+};
+@include font-face("Roboto", "./fonts/Roboto/Roboto-ThinItalic/Roboto-ThinItalic", ("ttf", "woff", "eot")){
+	font-style: italic;
+ 	font-weight: 100;
+};
+
+@include font-face("Roboto", "./fonts/Roboto/Roboto-Light/Roboto-Light", ("ttf", "woff", "eot")){
+	font-style: normal;
+ 	font-weight: 300;
+};
+@include font-face("Roboto", "./fonts/Roboto/Roboto-LightItalic/Roboto-LightItalic", ("ttf", "woff", "eot")){
+	font-style: italic;
+ 	font-weight: 300;
+};
+
+@include font-face("Roboto", "./fonts/Roboto/Roboto-Regular/Roboto-Regular", ("ttf", "woff", "eot")){
+	font-style: normal;
+ 	font-weight: 400;
+};
+@include font-face("Roboto", "./fonts/Roboto/Roboto-Italic/Roboto-Italic", ("ttf", "woff", "eot")){
+	font-style: italic;
+ 	font-weight: 400;
+};
+
+@include font-face("Roboto", "./fonts/Roboto/Roboto-Medium/Roboto-Medium", ("ttf", "woff", "eot")){
+	font-style: normal;
+ 	font-weight: 500;
+};
+@include font-face("Roboto", "./fonts/Roboto/Roboto-MediumItalic/Roboto-MediumItalic", ("ttf", "woff", "eot")){
+	font-style: italic;
+ 	font-weight: 500;
+};
+
+@include font-face("Roboto", "./fonts/Roboto/Roboto-Bold/Roboto-Bold", ("ttf", "woff", "eot")){
+	font-style: normal;
+ 	font-weight: 700;
+};
+@include font-face("Roboto", "./fonts/Roboto/Roboto-BoldItalic/Roboto-BoldItalic", ("ttf", "woff", "eot")){
+	font-style: italic;
+ 	font-weight: 700;
+};
+
+@include font-face("Roboto", "./fonts/Roboto/Roboto-Black/Roboto-Black", ("ttf", "woff", "eot")){
+	font-style: normal;
+ 	font-weight: 900;
+};
+@include font-face("Roboto", "./fonts/Roboto/Roboto-BlackItalic/Roboto-BlackItalic", ("ttf", "woff", "eot")){
+	font-style: italic;
+ 	font-weight: 900;
+};
+

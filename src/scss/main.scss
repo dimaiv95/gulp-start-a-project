@@ -1,0 +1,82 @@
+@import "_vars";
+@import "_libs";
+@import "_fonts";
+@import "_mixins";
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none !important;
+	box-shadow: none;
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+	font: normal 400 16px / 1.2 "Roboto", sans-serif;
+	background-color: $white;
+	color: $black;
+}
+
+header,
+section,
+footer{
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+}
+h1{
+	font-size: 100px;
+	font-weight: 700;
+}
+h2{
+	font-size: 72px;
+	font-weight: 700;
+}
+h3{
+	font-size: 42px;
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*
+** Components
+*/
+@import "includes/components/start-a-project";
+
+/*
+** General
+*/
+@import "includes/header";
+@import "includes/footer";
+
+/*
+** Home Page
+*/
+@import "includes/pages/home/home-section-1";
+@import "includes/pages/home/home-section-2";
+
+/*
+** Tech Page
+*/
+@import "includes/pages/tech/tech-section-1";
+
+/*
+** General Media
+*/
+@import "media/_max_w_1600";
+@import "media/_max_w_1440";
+@import "media/_max_w_1200";
+@import "media/_max_w_992";
+@import "media/_max_w_767";
+@import "media/_max_w_576";

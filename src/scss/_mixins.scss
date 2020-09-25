@@ -1,0 +1,15 @@
+/*
+** mixins
+*/
+@mixin media($property, $value){
+	@media only screen and (#{$property} : #{$value}px){
+		@content
+	}
+};
+
+@mixin media-only($property1, $value1, $property2, $value2){
+	@media only screen and (#{$property1} : #{$value1}px) and (#{$property2} : #{$value2}px){
+		@content
+	}
+};
+

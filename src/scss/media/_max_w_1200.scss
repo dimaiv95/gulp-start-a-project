@@ -1,0 +1,9 @@
+/*
+** max-width 1200px
+*/
+@include media("max-width", 1200){}
+
+/*
+** bootstrap max-width 1199.98px
+*/
+@include media-breakpoint-down(md){}

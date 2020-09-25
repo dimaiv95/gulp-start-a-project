@@ -1,0 +1,43 @@
+.home-section-1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+	min-height: 100vh;
+    background-color: $black;
+    &__start-a-project{
+        position: absolute;
+        bottom: 70px;
+        right: 70px;
+    }
+    p{
+        margin: 15px 0;
+        color: $white;
+    }
+}
+
+@include media("max-width", 1600){}
+
+@include media("max-width", 1440){}
+
+@include media("max-width", 1200){}
+@include media-breakpoint-down(lg){
+    .home-section-1{
+        &__start-a-project{
+            bottom: 30px;
+            right: 30px;
+        }
+    }
+}
+
+@include media("max-width", 992){}
+
+@include media("max-width", 767){}
+
+@include media("max-width", 576){}
+@include media-breakpoint-down(xs){
+    .home-section-1{
+        &__start-a-project{
+            display: none;
+        }
+    }
+}
